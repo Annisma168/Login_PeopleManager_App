@@ -17,9 +17,9 @@ using System.Windows.Shapes;
 namespace Login_PeopleManager_App
 {
     /// <summary>
-    /// Logic for InvoiceView.xaml
+    /// Logic for PeopleView.xaml
     /// </summary>
-    public partial class InvoiceView : UserControl
+    public partial class PeopleView : UserControl
     {
         public ObservableCollection<Person> people = new ObservableCollection<Person>
         {
@@ -29,7 +29,7 @@ namespace Login_PeopleManager_App
             new Person { Name = "Stefan", Age = 38 }
         };
 
-        public InvoiceView()
+        public PeopleView()
         {
             InitializeComponent();
             ListBoxPeople.ItemsSource = people;

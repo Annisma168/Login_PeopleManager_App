@@ -39,7 +39,7 @@ namespace Login_PeopleManager_App
                 {
                     MessageBox.Show("Correct password!");
                     Window window = Window.GetWindow(this);
-                    window.Content = new InvoiceView();
+                    window.Content = new PeopleView();
                 }
                 else
                 {
